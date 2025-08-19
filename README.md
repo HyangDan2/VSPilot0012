@@ -1,32 +1,33 @@
-# MS-SSIM 이미지 유사도 분석기 (PyTorch & PyIQA)
+# MS-SSIM Image Similarity Analyzer (PyTorch & PyIQA)
 
-PySide6 GUI 기반으로 두 이미지를 비교하고 MS-SSIM 유사도를 계산하는 도구입니다.
+This is a PySide6 GUI-based application for comparing two images and computing their similarity using the MS-SSIM metric.
 
-## 주요 기능
+## Features
 
-- 이미지1 / 이미지2 불러오기
-- 실시간 전처리: Grayscale, CLAHE, Blur (3종 알고리즘)
-- 후처리 이미지 확인 (총 4개: 원본/처리)
-- MSSSIM 유사도 측정 (PyTorch 또는 PyIQA 선택)
-- 전처리 이미지 저장 및 CSV 로그 저장
+- Load two input images (Image 1 & Image 2)
+- Real-time preprocessing: Grayscale, CLAHE, and Blur (with 3 algorithm options)
+- Side-by-side view of original and preprocessed images (4 total views)
+- MS-SSIM score calculation (select between PyTorch or PyIQA implementation)
+- Save preprocessed images
+- Export similarity logs with preprocessing parameters in CSV format
 
-## 실행 방법
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
 
-## 결과 예시
+## Example Output
 
-- PyTorch-MSSSIM 유사도: `0.7267`
-- PyIQA-SSIM 유사도: `0.7678`
+- PyTorch-MSSSIM score: `0.7267`
+- PyIQA-SSIM score: `0.7678`
 
-## 스크린샷
+## Screenshot
 
-(예시 이미지를 넣어주세요)
+(Add sample screenshots here)
 
-## 디렉토리 구조
+## Project Structure
 
 ```
 project/
@@ -39,6 +40,6 @@ project/
 └── README.md
 ```
 
-## 라이선스
+## License
 
-Apache 2.0 (LICENSE.txt 참조)
+Apache 2.0 — see LICENSE.txt for details.
