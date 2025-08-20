@@ -5,9 +5,9 @@ from PySide6.QtCore import Qt
 from pathlib import Path
 import numpy as np
 from PIL import Image
-from Processor import ImageProcessor
-from Calculator import MSSSIMCalculator
-from Logger import LogManager
+from src.Processor import ImageProcessor
+from src.Calculator import MSSSIMCalculator
+from src.Logger import LogManager
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -28,7 +28,7 @@ class MainWindow(QWidget):
 
     def init_ui(self):
         self.combo_method = QComboBox()
-        self.combo_method.addItems(["pytorch-msssim", "pyiqa-ssim"])
+        self.combo_method.addItems(["pytorch-msssim", "pyiqa-ssim", "pyiqa-msssim(mono)", "pyiqa-msssim(color)" ])
 
         self.btn_load1 = QPushButton("이미지 1")
         self.btn_load2 = QPushButton("이미지 2")

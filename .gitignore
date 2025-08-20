@@ -1,0 +1,49 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Logs / debug / temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+
+# Project-specific
+outputs/
+image/
+
+# If you don’t want to ignore image/, remove it ↑

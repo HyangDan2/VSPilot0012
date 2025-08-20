@@ -25,7 +25,7 @@ python main.py
 
 ## Screenshot
 
-(Add sample screenshots here)
+![앱 실행 화면](./image/screenshot.png)
 
 ## Project Structure
 
